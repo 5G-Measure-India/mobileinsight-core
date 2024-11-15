@@ -1,0 +1,10 @@
+examples/
+gui/
+unit-test/
+
+*.sh
+Dockerfile
+LICENSE
+MANIFEST.in
+README.md
+wireshark.rb
