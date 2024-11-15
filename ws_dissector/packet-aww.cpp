@@ -299,7 +299,7 @@ proto_reg_handoff_aww(void)
     for (int i = 0; i <= PROTO_MAX; i++) {
         if (protos[i] != NULL) {
             handle = find_dissector(protos[i]);
-            dissector_add_uint("aww.proto", i, handle);
+            if (handle) dissector_add_uint("aww.proto", i, handle);
         }
     }
 }
