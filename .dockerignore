@@ -1,7 +1,9 @@
+.git/
 examples/
 gui/
 unit-test/
 
+.dockerignore
 *.sh
 Dockerfile
 LICENSE
